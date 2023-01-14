@@ -41,17 +41,17 @@ func main() {
 		os.Exit(1)
 	}
 
-	for _, item := range r.Channel.ItemList {
-		fmt.Println(item.Title)
-		fmt.Println(item.Link)
-		fmt.Println(item.Traffic)
-		fmt.Println("")
+	for i := range r.Channel.ItemList {
+		rank := (i + 1)
+		fmt.Println("#", rank)
+		fmt.Println("Title: ", r.Channel.ItemList[i].Title)
+		fmt.Println("Link: ", r.Channel.ItemList[i].Link)
+		fmt.Println("Headline: ", r.Channel.ItemList[i].NewItems[0].Headline)
 
-		for _, news := range item.NewItems {
-			fmt.Println(news.Headline)
-			fmt.Println(news.HeadlineLink)
-			fmt.Println("")
-		}
+		// for j := range r.Channel.ItemList[i].NewItems {
+		// 	fmt.Println("Headline: ", r.Channel.ItemList[i].NewItems[j].Headline)
+		// 	fmt.Println("Headline Link: ", r.Channel.ItemList[i].NewItems[j].HeadlineLink)
+		// }
 	}
 }
 
