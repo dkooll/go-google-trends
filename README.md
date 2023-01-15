@@ -31,3 +31,11 @@ The program then iterates through the ItemList field of the Channel struct and p
 The getGoogleTrends() function is used to make a GET request to the Google Trends RSS feed URL and returns the http.Response struct. The readGoogleTrends() function reads the response body and returns it as a byte slice.
 
 The program also has comments for further usage like to print the headline links, this program is a basic version of parsing the google trends data, you can customize the program by editing the URL passed to the http.Get() function to retrieve data for a different location or time frame. Additionally, you can modify the structs and print statements to access and display different pieces of information from the Google Trends data.
+
+## Concepts Learned
+
+-   Creating proper structs for organizing information
+-   Make request to the xml url, using the net/http package
+-   Read the data using the io/ioutil package
+-   Unmarshall the xml data to structured data, based on the structs defined by using the encoding/xml package
+-   Iterate through the data and print the relevant information
