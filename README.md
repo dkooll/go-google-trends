@@ -10,8 +10,6 @@ Note: you can change the geo code in the url to get the relevant google trends d
 
 ## Overview
 
-### Structs
-
 ![Structs](/images/structs.png "structs")
 
 ## Details
