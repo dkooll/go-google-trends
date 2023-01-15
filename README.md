@@ -8,7 +8,11 @@ You can also customize the program by editing the URL passed to the http.Get() f
 
 Note: you can change the geo code in the url to get the relevant google trends data.
 
-![MarineGEO circle logo](/images/structs.png "MarineGEO logo")
+## Overview
+
+### Structs
+
+![Structs](/images/structs.png "structs")
 
 ## Details
 
