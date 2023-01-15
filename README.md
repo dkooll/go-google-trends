@@ -8,6 +8,8 @@ You can also customize the program by editing the URL passed to the http.Get() f
 
 Note: you can change the geo code in the url to get the relevant google trends data.
 
+![MarineGEO circle logo](/images/structs.png "MarineGEO logo")
+
 ## Details
 
 This Go program is designed to parse and display information from Google Trends data. The program uses the Go standard library's net/http package to retrieve the RSS feed of daily trending search terms from Google Trends, and the encoding/xml package to parse the XML data into a struct for easy access.
