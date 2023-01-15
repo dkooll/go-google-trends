@@ -12,6 +12,8 @@ Note: you can change the geo code in the url to get the relevant google trends d
 
 ![Structs](/images/structs.png "structs")
 
+![Function Flow](/images/functionflow.png "function flow")
+
 ## Details
 
 This Go program is designed to parse and display information from Google Trends data. The program uses the Go standard library's net/http package to retrieve the RSS feed of daily trending search terms from Google Trends, and the encoding/xml package to parse the XML data into a struct for easy access.
