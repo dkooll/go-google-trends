@@ -9,10 +9,6 @@ You can also customize the program by editing the URL passed to the http.Get() f
 Note: you can change the geo code in the url to get the relevant google trends data.
 
 ## Overview
-### Structs
-
-![Structs](/images/structs.png "structs")
-
 ### Function Flow
 
 ![Function Flow](/images/functionflow.png "function flow")
