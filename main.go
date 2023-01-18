@@ -45,13 +45,11 @@ func main() {
 		rank := (i + 1)
 		fmt.Println("#", rank)
 		fmt.Println("Title: ", r.Channel.ItemList[i].Title)
-		fmt.Println("Link: ", r.Channel.ItemList[i].Link)
-		fmt.Println("Headline: ", r.Channel.ItemList[i].NewItems[0].Headline)
 
-		// for j := range r.Channel.ItemList[i].NewItems {
-		// 	fmt.Println("Headline: ", r.Channel.ItemList[i].NewItems[j].Headline)
-		// 	fmt.Println("Headline Link: ", r.Channel.ItemList[i].NewItems[j].HeadlineLink)
-		// }
+		for x := range r.Channel.ItemList[i].NewItems {
+			fmt.Println("Headline: ", r.Channel.ItemList[i].NewItems[x].Headline)
+			fmt.Println("Headline Link: ", r.Channel.ItemList[i].NewItems[x].HeadlineLink)
+		}
 	}
 }
 

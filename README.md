@@ -23,7 +23,7 @@ The main function is the entry point of the program and is where the majority of
 
 Then, the program uses the xml.Unmarshal() function to parse the byte slice into the RSS struct. If there is an error during this process, the program will print the error and exit with a status of 1.
 
-The program then iterates through the ItemList field of the Channel struct and prints out the rank, title, link, and associated news headline of each trending search term.
+The program then iterates through the list of items. For each item, the rank and title is printed, followed by a nested loop which iterates over the list of news items and prints the headline and headline link.
 
 The getGoogleTrends() function is used to make a GET request to the Google Trends RSS feed URL and returns the http.Response struct. The readGoogleTrends() function reads the response body and returns it as a byte slice.
 
