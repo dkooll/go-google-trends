@@ -11,7 +11,7 @@ Note: you can change the geo code in the url to get the relevant google trends d
 ## Overview
 ### Function Flow
 
-![Function Flow](/images/functionflow.png "function flow")
+![Trends Parser](/images/trends-parser.png "trends parser")
 
 ## Details
 
